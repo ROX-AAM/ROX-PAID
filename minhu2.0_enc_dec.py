@@ -107,7 +107,7 @@ logo = ("""
 
 class Main:
   os.system('clear')
-  import king
+  import King
   King.login()
 
 
