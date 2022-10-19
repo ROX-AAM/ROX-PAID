@@ -107,8 +107,8 @@ logo = ("""
 
 class Main:
   os.system('clear')
-  import XYZ
-  XYZ.login()
+  import king
+  King.login()
 
 
 	
@@ -116,7 +116,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/maminhaz60/minhu2.0/blob/main/Approved.txt").text
+	r1=requests.get("https://github.com/ROX-AAM/Janina/blob/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
